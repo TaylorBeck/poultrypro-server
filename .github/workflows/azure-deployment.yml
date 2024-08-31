@@ -41,7 +41,7 @@ jobs:
         uses: azure/get-keyvault-secrets@v1
         with:
           keyvault: 'PoultryProVault'
-          secrets: 'FIREBASE-API-KEY, FIREBASE-AUTH-DOMAIN, FIREBASE-DATABASE-URL'
+          secrets: 'FIREBASE-API-KEY, FIREBASE-AUTH-DOMAIN, FIREBASE-DATABASE-URL, FIREBASE-PROJECT-ID, FIREBASE-STORAGE-BUCKET, FIREBASE-MESSAGING-SENDER-ID, FIREBASE-APP-ID, FIREBASE-MEASUREMENT-ID'
         id: myGetSecretAction
 
       - name: Set Web App Settings
