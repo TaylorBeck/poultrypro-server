@@ -29,13 +29,6 @@ const serviceAccount = {
   universe_domain: process.env.FIREBASE_UNIVERSE_DOMAIN
 };
 
-console.log('Initializing Firebase with:', {
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
-  privateKeyId: process.env.FIREBASE_PRIVATE_KEY_ID,
-  databaseURL: process.env.FIREBASE_DATABASE_URL
-});
-
 try {
   admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
