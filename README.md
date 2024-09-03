@@ -15,7 +15,7 @@ PoultryPro API is an Express.js application designed to manage poultry-related d
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:TaylorBeck/poultrypro-server.git
    cd poultrypro-server
    ```
 
